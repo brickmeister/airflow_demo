@@ -27,7 +27,7 @@ This is a demonstration of Databricks Airflow integration to utilize directed ac
 ## Installing Airflow Databricks integration
 Run the following command to install airflow with databricks integration. See [databricks airflow integration](https://docs.databricks.com/dev-tools/data-pipelines.html#install-the-airflow-databricks-integration) for more details.
 ```{sh}
-$ pip3 install "apache-airflow[databricks]" "apache-airflow[cncf.kubernetes]
+$ pip3 install "apache-airflow[databricks]" "apache-airflow[cncf.kubernetes]"
 ```
 
 ## Obtaining a Databricks token
@@ -40,7 +40,7 @@ For the purpose of this workshop, we'll use a local instance of airflow.
 Run the following command to initialize the airflow database. See [airflow startup](https://airflow.apache.org/docs/apache-airflow/stable/start/local.html) for more info.
 
 ```{sh}
-$ export AIRFLOW_HOME=./airflow
+$ export AIRFLOW_HOME=${PWD}/airflow
 $ airflow db init
 ```
 
