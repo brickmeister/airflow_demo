@@ -1,0 +1,14 @@
+[2021-03-26 10:48:31,185] {scheduler_job.py:181} INFO - Started process (PID=4141) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-03-26 10:48:31,185] {scheduler_job.py:629} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-03-26 10:48:31,186] {logging_mixin.py:103} INFO - [2021-03-26 10:48:31,186] {dagbag.py:440} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-03-26 10:48:31,192] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-03-26 10:48:31,193] {logging_mixin.py:103} INFO - [2021-03-26 10:48:31,192] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-26 10:48:31,225] {logging_mixin.py:103} INFO - [2021-03-26 10:48:31,224] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-03-26 10:48:31,235] {scheduler_job.py:189} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.051 seconds
+[2021-03-26 10:49:51,119] {scheduler_job.py:181} INFO - Started process (PID=4306) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-03-26 10:49:51,120] {scheduler_job.py:629} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-03-26 10:49:51,120] {logging_mixin.py:103} INFO - [2021-03-26 10:49:51,120] {dagbag.py:440} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-03-26 10:49:51,125] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py
+[2021-03-26 10:49:51,125] {logging_mixin.py:103} INFO - [2021-03-26 10:49:51,125] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-26 10:49:51,149] {logging_mixin.py:103} INFO - [2021-03-26 10:49:51,149] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-03-26 10:49:51,157] {scheduler_job.py:189} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/test_utils.py took 0.039 seconds

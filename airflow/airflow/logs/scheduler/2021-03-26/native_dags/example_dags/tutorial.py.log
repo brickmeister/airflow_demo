@@ -1,0 +1,14 @@
+[2021-03-26 10:49:01,839] {scheduler_job.py:181} INFO - Started process (PID=4212) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-03-26 10:49:01,839] {scheduler_job.py:629} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-26 10:49:01,839] {logging_mixin.py:103} INFO - [2021-03-26 10:49:01,839] {dagbag.py:440} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-03-26 10:49:01,844] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-03-26 10:49:01,844] {logging_mixin.py:103} INFO - [2021-03-26 10:49:01,844] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-26 10:49:01,868] {logging_mixin.py:103} INFO - [2021-03-26 10:49:01,868] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-03-24 00:00:00+00:00
+[2021-03-26 10:49:01,875] {scheduler_job.py:189} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.037 seconds
+[2021-03-26 10:49:55,354] {scheduler_job.py:181} INFO - Started process (PID=4322) to work on /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-03-26 10:49:55,355] {scheduler_job.py:629} INFO - Processing file /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2021-03-26 10:49:55,355] {logging_mixin.py:103} INFO - [2021-03-26 10:49:55,355] {dagbag.py:440} INFO - Filling up the DagBag from /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-03-26 10:49:55,359] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py
+[2021-03-26 10:49:55,360] {logging_mixin.py:103} INFO - [2021-03-26 10:49:55,359] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-03-26 10:49:55,381] {logging_mixin.py:103} INFO - [2021-03-26 10:49:55,381] {dag.py:2266} INFO - Setting next_dagrun for tutorial to 2021-03-24 00:00:00+00:00
+[2021-03-26 10:49:55,388] {scheduler_job.py:189} INFO - Processing /usr/local/lib/python3.9/site-packages/airflow/example_dags/tutorial.py took 0.034 seconds

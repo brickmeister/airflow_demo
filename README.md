@@ -27,7 +27,7 @@ This is a demonstration of Databricks Airflow integration to utilize directed ac
 ## Installing Airflow Databricks integration
 Run the following command to install airflow with databricks integration. See [databricks airflow integration](https://docs.databricks.com/dev-tools/data-pipelines.html#install-the-airflow-databricks-integration) for more details.
 ```{sh}
-$ pip3 install "apache-airflow[databricks]"
+$ pip3 install "apache-airflow[databricks]" "apache-airflow[cncf.kubernetes]
 ```
 
 ## Obtaining a Databricks token
@@ -40,15 +40,15 @@ For the purpose of this workshop, we'll use a local instance of airflow.
 Run the following command to initialize the airflow database. See [airflow startup](https://airflow.apache.org/docs/apache-airflow/stable/start/local.html) for more info.
 
 ```{sh}
-$ cd airflow
+$ export AIRFLOW_HOME=./airflow
 $ airflow db init
 ```
 
 ### Setup an airflow user
 Run the following command to setup an airflow user.
 ```{sh}
-$ cd airflow
-$ cd airflow users create \
+$ export AIRFLOW_HOME=${PWD}/airflow
+$ airflow users create \
             --username admin \
             --firstname Peter \
             --lastname Parker \
@@ -59,15 +59,16 @@ $ cd airflow users create \
 ## Running the Airflow server
 Run the following command below to run the airflow server
 ```{sh}
-$ cd airflow
+$ export AIRFLOW_HOME=${PWD}/airflow
 $ airflow webserver --port 8080 -D
 ```
 
 ## Run the Airflow scheduler
 Run the follow command to run the airflow scheduler.
 ```{sh}
+$ export AIRFLOW_HOME=${PWD}/airflow
 $ airflow scheduler
 ```
 
 # Access the Airflow UI
-Login the airflow UI with the credentials specified above in [setting up airflow user](###setup-an-airflow-user) at [localhost:8080](localhost:8080)
+Login the airflow UI with the credentials specified above in [setting up airflow user](###setup-an-airflow-user) at [http://localhost:8080](http://localhost:8080)

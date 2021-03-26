@@ -1,0 +1,282 @@
+[2021-01-26 12:49:18,173] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: example_databricks_operator.Airflow_Databricks_Integration_ML 2021-01-24T00:00:00+00:00 [queued]>
+[2021-01-26 12:49:18,178] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: example_databricks_operator.Airflow_Databricks_Integration_ML 2021-01-24T00:00:00+00:00 [queued]>
+[2021-01-26 12:49:18,178] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-26 12:49:18,178] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-26 12:49:18,178] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-26 12:49:18,183] {taskinstance.py:1038} INFO - Executing <Task(DatabricksSubmitRunOperator): Airflow_Databricks_Integration_ML> on 2021-01-24T00:00:00+00:00
+[2021-01-26 12:49:18,184] {standard_task_runner.py:51} INFO - Started process 65868 to run task
+[2021-01-26 12:49:18,190] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'example_databricks_operator', 'Airflow_Databricks_Integration_ML', '2021-01-24T00:00:00+00:00', '--job-id', '3', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/ml_test_dag.py', '--cfg-path', '/var/folders/hr/ff_6v67j44xfkn938shb43fr0000gp/T/tmp7rkec2tk']
+[2021-01-26 12:49:18,191] {standard_task_runner.py:76} INFO - Job 3: Subtask Airflow_Databricks_Integration_ML
+[2021-01-26 12:49:18,220] {logging_mixin.py:103} INFO - Running <TaskInstance: example_databricks_operator.Airflow_Databricks_Integration_ML 2021-01-24T00:00:00+00:00 [running]> on host C02CQCF5MD6M
+[2021-01-26 12:49:18,244] {taskinstance.py:1230} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mark.lee@databricks.com
+AIRFLOW_CTX_DAG_OWNER=ml-airflow
+AIRFLOW_CTX_DAG_ID=example_databricks_operator
+AIRFLOW_CTX_TASK_ID=Airflow_Databricks_Integration_ML
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-24T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-01-24T00:00:00+00:00
+[2021-01-26 12:49:18,286] {base.py:65} INFO - Using connection to: id: databricks_default. Host: https://demo.cloud.databricks.com/, Port: None, Schema: , Login: token, Password: None, extra: XXXXXXXX
+[2021-01-26 12:49:18,287] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:49:19,478] {databricks.py:73} INFO - Run submitted with run_id: 2410787
+[2021-01-26 12:49:19,479] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:49:19,949] {databricks.py:78} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:49:19,951] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:49:20,462] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:49:20,462] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:49:20,463] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:49:50,465] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:49:50,850] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:49:50,850] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:49:50,851] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:50:20,852] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:50:21,295] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:50:21,296] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:50:21,296] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:50:51,298] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:50:51,675] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:50:51,676] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:50:51,676] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:51:21,679] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:51:22,066] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:51:22,066] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:51:22,067] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:51:52,068] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:51:52,446] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:51:52,447] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:51:52,448] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:52:22,450] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:52:22,866] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:52:22,867] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:52:22,867] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:52:52,871] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:52:53,253] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:52:53,254] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:52:53,255] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:53:23,260] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:53:23,799] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:53:23,799] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:53:23,800] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:53:53,802] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:53:54,225] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:53:54,226] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:53:54,226] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:54:24,228] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:54:24,636] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:54:24,637] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:54:24,637] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:54:54,638] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:54:55,059] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:54:55,059] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:54:55,060] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:55:25,061] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:55:25,426] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:55:25,427] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:55:25,427] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:55:55,429] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:55:55,845] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:55:55,846] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:55:55,847] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:56:25,848] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:56:26,228] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:56:26,229] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:56:26,230] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:56:56,232] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:56:56,618] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:56:56,619] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:56:56,619] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:57:26,621] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:57:27,173] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:57:27,173] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:57:27,174] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:57:57,176] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:57:57,545] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:57:57,546] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:57:57,546] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:58:27,547] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:58:27,923] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:58:27,924] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:58:27,925] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:58:57,926] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:58:58,305] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:58:58,306] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:58:58,306] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:59:28,307] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:59:28,680] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:59:28,681] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:59:28,681] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 12:59:58,682] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 12:59:59,221] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 12:59:59,221] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 12:59:59,222] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:00:29,223] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:00:29,604] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:00:29,605] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:00:29,605] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:00:59,607] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:01:00,110] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:01:00,110] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:01:00,111] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:01:30,112] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:01:30,541] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:01:30,541] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:01:30,542] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:02:00,543] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:02:01,169] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:02:01,170] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:02:01,170] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:02:31,172] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:02:31,707] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:02:31,708] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:02:31,709] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:03:01,710] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:03:02,104] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:03:02,105] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:03:02,105] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:03:32,106] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:03:32,568] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:03:32,569] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:03:32,570] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:04:02,571] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:04:02,999] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:04:03,000] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:04:03,000] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:04:33,001] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:04:33,974] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:04:33,974] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:04:33,975] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:05:03,976] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:05:04,440] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:05:04,441] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:05:04,442] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:05:34,442] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:05:34,840] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:05:34,841] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:05:34,841] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:06:04,843] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:06:05,234] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:06:05,235] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:06:05,235] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:06:35,237] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:06:35,680] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:06:35,681] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:06:35,681] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:07:05,682] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:07:06,095] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:07:06,095] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:07:06,095] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:07:36,096] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:07:36,765] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:07:36,766] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:07:36,766] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:08:06,768] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:08:07,302] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:08:07,303] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:08:07,303] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:08:37,304] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:08:37,698] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:08:37,698] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:08:37,699] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:09:07,700] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:09:08,335] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:09:08,336] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:09:08,336] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:09:38,337] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:09:39,214] {databricks.py:90} INFO - Airflow_Databricks_Integration_ML in run state: {'life_cycle_state': 'RUNNING', 'result_state': None, 'state_message': 'In run'}
+[2021-01-26 13:09:39,215] {databricks.py:91} INFO - View run status, Spark UI, and logs at https://demo.cloud.databricks.com#job/40996/run/1
+[2021-01-26 13:09:39,215] {databricks.py:92} INFO - Sleeping for 30 seconds.
+[2021-01-26 13:09:42,415] {process_utils.py:95} INFO - Sending Signals.SIGTERM to GPID 65868
+[2021-01-26 13:09:42,416] {taskinstance.py:1214} ERROR - Received SIGTERM. Terminating subprocesses.
+[2021-01-26 13:09:42,425] {base.py:65} INFO - Using connection to: id: databricks_default. Host: https://demo.cloud.databricks.com/, Port: None, Schema: , Login: token, Password: None, extra: XXXXXXXX
+[2021-01-26 13:09:42,426] {databricks.py:170} INFO - Using token auth. 
+[2021-01-26 13:09:42,863] {databricks.py:321} INFO - Task: Airflow_Databricks_Integration_ML with run_id: 2410787 was requested to be cancelled.
+[2021-01-26 13:09:42,868] {taskinstance.py:1396} ERROR - Task received SIGTERM signal
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.9/site-packages/airflow/providers/databricks/operators/databricks.py", line 316, in execute
+    _handle_databricks_operator_execution(self, hook, self.log, context)
+  File "/usr/local/lib/python3.9/site-packages/airflow/providers/databricks/operators/databricks.py", line 93, in _handle_databricks_operator_execution
+    time.sleep(operator.polling_period_seconds)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1216, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2021-01-26 13:09:42,874] {taskinstance.py:1433} INFO - Marking task as FAILED. dag_id=example_databricks_operator, task_id=Airflow_Databricks_Integration_ML, execution_date=20210124T000000, start_date=20210126T174918, end_date=20210126T180942
+[2021-01-26 13:09:42,894] {configuration.py:344} WARNING - section/key [smtp/smtp_user] not found in config
+[2021-01-26 13:09:42,895] {email.py:184} INFO - Email alerting: attempt 1
+[2021-01-26 13:09:42,897] {configuration.py:344} WARNING - section/key [smtp/smtp_user] not found in config
+[2021-01-26 13:09:42,898] {email.py:184} INFO - Email alerting: attempt 1
+[2021-01-26 13:09:42,899] {taskinstance.py:1446} ERROR - Failed to send email to: ['mark.lee@databricks.com']
+[2021-01-26 13:09:42,899] {taskinstance.py:1447} ERROR - [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.9/site-packages/airflow/providers/databricks/operators/databricks.py", line 316, in execute
+    _handle_databricks_operator_execution(self, hook, self.log, context)
+  File "/usr/local/lib/python3.9/site-packages/airflow/providers/databricks/operators/databricks.py", line 93, in _handle_databricks_operator_execution
+    time.sleep(operator.polling_period_seconds)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1216, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1786, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 52, in send_email
+    return backend(
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 97, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, dryrun=dryrun)
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 186, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 220, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 843, in create_connection
+    raise err
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 831, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1444, in handle_failure
+    self.email_alert(error)
+  File "/usr/local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 1788, in email_alert
+    send_email(self.task.email, subject, html_content_err)
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 52, in send_email
+    return backend(
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 97, in send_email_smtp
+    send_mime_email(e_from=smtp_mail_from, e_to=recipients, mime_msg=msg, dryrun=dryrun)
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 186, in send_mime_email
+    conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+  File "/usr/local/lib/python3.9/site-packages/airflow/utils/email.py", line 220, in _get_smtp_connection
+    else smtplib.SMTP(host=host, port=port, timeout=timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/smtplib.py", line 310, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 843, in create_connection
+    raise err
+  File "/usr/local/Cellar/python@3.9/3.9.0_5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 831, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+[2021-01-26 13:09:42,914] {process_utils.py:61} INFO - Process psutil.Process(pid=65868, status='terminated', exitcode=1, started='12:49:18') (65868) terminated with exit code 1
